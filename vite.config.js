@@ -6,7 +6,7 @@ export default defineConfig({
   base: "/netflix_clone/",
   plugins: [react()],
   test: {
-    environment: 'jsdom',
+    environment: 'happy-dom',
     globals: true,
     setupFiles: './src/setupTests.js',
   }
